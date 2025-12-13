@@ -1,0 +1,8 @@
+Flask>=2.0
+opencv-python>=4.5
+dlib>=19.22
+imutils
+numpy
+scipy
+tensorflow>=2.10
+h5py

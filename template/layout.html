@@ -1,0 +1,23 @@
+<!-- templates/layout.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drowsiness Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Drowsiness Detection Demo</h1>
+      </header>
+      <main>
+        {% block content %}{% endblock %}
+      </main>
+      <footer>
+        <small>Local webcam stream • EAR-based detection • Optional Keras LSTM</small>
+      </footer>
+    </div>
+  </body>
+</html>
